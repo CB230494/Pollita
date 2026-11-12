@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#321627">
+  <meta name="description" content="Una sorpresa llena de amor para Kenia.">
+  <title>Para Kenia · Con todo mi amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="lights" aria-hidden="true"></div>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+  <main class="stage">
+    <section class="panel" id="panel" aria-labelledby="title">
+      <div class="ornament">✧ &nbsp; UNA SORPRESA PARA TI &nbsp; ✧</div>
+      <div class="heart-seal" aria-hidden="true">♥</div>
+      <h1 id="title">Mi querida <em>Kenia</em></h1>
+      <p class="intro">Hay algo que quisiera preguntarte… y solo hay una respuesta que hace feliz a mi corazón.</p>
+      <div class="question-panel">
+        <span class="eyebrow">UNA PREGUNTA MUY SERIA… O CASI</span>
+        <h2>¿Me quieres dejar?</h2>
+        <p class="hint" id="hint">Escoge con el corazón 🤍</p>
+        <div class="action-area" id="actionArea">
+          <button class="answer no" id="noBtn" type="button">No, mi amor ♥</button>
+          <button class="answer yes" id="yesBtn" type="button">Sí 😅</button>
+        </div>
+      </div>
+      <p class="footline">Hecho especialmente para ti, con amor infinito.</p>
+    </section>
+  </main>
+  <div class="overlay" id="overlay" aria-hidden="true">
+    <section class="letter" role="dialog" aria-modal="true" aria-labelledby="letterTitle" tabindex="-1" id="letter">
+      <button id="closeBtn" type="button" class="close" aria-label="Cerrar carta">×</button>
+      <div class="letter-heading"><span>✦ Una carta para mi persona favorita ✦</span><div class="envelope-icon">💌</div></div>
+      <h2 id="letterTitle">Para ti, Kenia</h2>
+      <div class="divider-heart">♥</div>
+      <p>Mi amor, aunque este pequeño juego sea una travesura, hay algo que te quiero decir muy en serio: <strong>te amo y agradezco a Dios por tenerte en mi vida.</strong></p>
+      <p>Gracias por tu compañía, tu paciencia y por los momentos que construimos juntos. No todo en la vida es perfecto, pero siempre quiero elegir el respeto, el diálogo, el cuidado y el amor para seguir caminando a tu lado.</p>
+      <p>Quiero que nunca olvides lo especial que eres para mí. Eres mi compañera, mi alegría y una bendición que deseo cuidar cada día.</p>
+      <blockquote><span>“El amor es sufrido, es benigno; el amor no tiene envidia...”</span><cite>1 Corintios 13:4 · Reina-Valera 1960</cite></blockquote>
+      <p>Que Dios nos enseñe a amarnos con paciencia, comprensión y ternura, hoy y siempre.</p>
+      <p class="signature">Con todo mi amor,<br><strong>Tu esposo ♥</strong></p>
+      <button type="button" id="againBtn" class="again">Te amo, Kenia ♥</button>
+    </section>
+  </div>
+</body>
+</html>
